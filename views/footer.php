@@ -1,6 +1,6 @@
 		<div id="pied">
 			<p>
-				Boris FISCHER<br>
+				Boris FISCHER (le mec qui galère avec git)<br>
 			</p>
 			<strong>Excellente journée qu'aujourd'hui le <?php echo $date ?></strong> :: 
 			<?php $time_end = microtime(true);
