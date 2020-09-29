@@ -35,7 +35,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601394206529</updated>
+<<<<<<< HEAD
       <workItem from="1601394214938" duration="122000" />
+=======
+      <workItem from="1601394214938" duration="445000" />
+>>>>>>> testbranch
     </task>
     <servers />
   </component>
@@ -43,9 +47,16 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="610" y="112" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1" timestamp="1601394345869">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="610" y="112" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1/0.0.1366.768@0.0.1366.768" timestamp="1601394345869" />
+=======
+    <state x="610" y="112" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1" timestamp="1601394675228">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="610" y="112" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function1/0.0.1366.768@0.0.1366.768" timestamp="1601394675228" />
+>>>>>>> testbranch
   </component>
 </project>

@@ -32,22 +32,52 @@ function callGeneseController()
     return $controller;
 }
 
+<<<<<<< HEAD
+=======
+/**
+ * @return LivresController
+ */
+function callLivresController()
+{
+    require_once('controllers/LivresController.php');
+    $controller = new LivresController();
+    return $controller;
+}
+
+/**
+ * @return ContactController
+ */
+function callContactController()
+{
+    require_once('controllers/ContactController.php');
+    $controller = new ContactController();
+    return $controller;
+}
+
+/**
+ * @return AccueilController
+ */
+function callDefaultController()
+{
+    require_once('controllers/AccueilController.php');
+    $controller = new AccueilController();
+    return $controller;
+}
+
+>>>>>>> testbranch
 switch($action) {
 		case 'genese':
 			$controller = callGeneseController();
             break;
 		case 'livres':
-			require_once('controllers/LivresController.php');	
-			$controller = new LivresController();
-			break;
+			$controller = callLivresController();
+            break;
 		case 'contact':
-			require_once('controllers/ContactController.php');	
-			$controller = new ContactController();
-			break;	
+			$controller = callContactController();
+            break;
 		default: # Par défaut, le contrôleur de l'accueil est sélectionné
-			require_once('controllers/AccueilController.php');	
-			$controller = new AccueilController();
-			break;
+			$controller = callDefaultController();
+            break;
 	}
 	# Exécution du contrôleur correspondant à l'action demandée
 	$controller->run();
