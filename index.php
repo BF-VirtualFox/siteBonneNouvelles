@@ -23,18 +23,6 @@
 	$action = (isset($_GET['action'])) ? htmlentities($_GET['action']) : 'default';
 	# Quelle action est demandée ?
 /**
- * @return GeneseController
- */
-function callGeneseController()
-{
-    require_once('controllers/GeneseController.php');
-    $controller = new GeneseController();
-    return $controller;
-}
-
-<<<<<<< HEAD
-=======
-/**
  * @return LivresController
  */
 function callLivresController()
@@ -64,7 +52,6 @@ function callDefaultController()
     return $controller;
 }
 
->>>>>>> testbranch
 switch($action) {
 		case 'genese':
 			$controller = callGeneseController();
