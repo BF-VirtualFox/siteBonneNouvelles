@@ -22,6 +22,17 @@
 	# Tester si une variable GET 'action' est précisée dans l'URL index.php?action=...
 	$action = (isset($_GET['action'])) ? htmlentities($_GET['action']) : 'default';
 	# Quelle action est demandée ?
+
+/**
+ * @return GeneseController
+ */
+function callGeneseController()
+{
+    require_once('controllers/GeneseController.php');
+    $controller = new GeneseController();
+    return $controller;
+}
+
 /**
  * @return LivresController
  */
